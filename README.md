@@ -82,17 +82,19 @@ it redirects the client request to https://www.google.com/
 
 * For the following HTTP headers, decide if the following header is used for requests, responses or both:
 	* Accept
-  - request
+  request
 	* Content-type
-  - both
+  both
 	* User-agent
-  - request
+  request
 	* Set-cookies
-  - response
+  response
 	* Cache-control
-  - both
+  both
 	* Cookie
-  - both
+  both
+
+  
 * Is the following a http request or response?  How do you know for each?
 
 ```
@@ -209,6 +211,31 @@ console.log(JSON.stringify(myObj));
 __MISC__
 
 * Describe what DNS is.
+
+```
+Service that assigns names to IP addresses.
+```
+
 * In the terminal, type `man curl`.  Look at the man page for curl.  What do the following flags do? `-v`, `-X`.  (Hint: to search for a string, type `/` then the text you want, then enter.  To quit the man page, type `q`).
+
+```
+
+- specifies a Request
+-v stands for verbose output
+
+```
+
 * What is TCP/IP?  How does it interact with HTTP?
+
+```
+
+TCP/IP is the protocol stack that is underlying Internet routing. It's what specifies how to reliablyy transport data to the correct location. 
+
+```
+
 * Does HTTP break the data that is being sent into small packets?  If not, what protocol is responsible for it?
+
+```
+No, TCP/IP is responsible for that.
+```
+
